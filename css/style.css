@@ -1,0 +1,159 @@
+*{
+    background-color:azure ;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18pt;
+    font-weight: 600;
+    color: #2e93f0;
+    text-align: center;
+}
+
+button {
+    background-color: #2e93f0;
+    padding: 10px 30px;
+    margin-top: 5px;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 9px;
+    border-style: none;
+    color: azure;
+    border-color: #2e93f0;
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+
+button:hover{
+    font-size: 18px;
+    background-color: azure;
+    color: #2e93f0;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #2e93f0;
+}
+
+
+#table-agenda {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  #table-agenda td, #table-agenda th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  #table-agenda tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #table-agenda tr:hover {background-color: #ddd;}
+  
+  #table-agenda th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #2e93f0;
+    color: white;
+  }
+
+  /*-Incluir Contato-*/
+  
+  legend {
+    background-color: #2e93f0;
+    color: white;
+    padding: 5px 10px;
+  }
+
+  input[type=text], select {
+    background-color: white;
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  input[type=button] {
+    background-color: #2e93f0;
+    padding: 10px 30px;
+    margin-top: 5px;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 9px;
+    border-style: none;
+    color: azure;
+    border-color: #2e93f0;
+    transition-duration: 0.5s;
+    cursor: pointer;
+  }
+
+  input[type=button]:hover {
+    font-size: 18px;
+    background-color: azure;
+    color: #2e93f0;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #2e93f0;
+  }
+
+  
+  input[type=submit] {
+    width: 30%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition-duration: 0.5s;
+  }
+  
+  input[type=submit]:hover {
+    font-size: 18px;
+    background-color: azure;
+    color: #45A049;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #45A049;
+  }
+
+.cancel {
+    background-color:rgb(179, 11, 11);
+    padding: 10px 30px;
+    margin-top: 5px;
+    text-align: center;
+    font-size: 16px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 9px;
+    border-style: none;
+    color: azure;
+    border-color: rgb(179, 11, 11);
+    transition-duration: 0.5s;
+    cursor: pointer;
+  }
+
+.cancel:hover {
+    font-size: 18px;
+    background-color: azure;
+    color: #ff1f1f;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #ff1f1f;
+  }
+
+  #fldTelefone p input{
+    background-color: white;
+    width: 10%;
+    padding: 12px 20px;
+    margin: 8px 10px;
+    display: inline-flexbox;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    text-align: center;
+  }
